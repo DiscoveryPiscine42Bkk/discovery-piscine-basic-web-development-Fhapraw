@@ -36,6 +36,7 @@
     h1 {
       font-weight: 700;
       font-size: 32px;
+      line-height: 1.2;
     }
 
     p {
@@ -123,6 +124,65 @@
       color: #777;
       font-weight: 300;
       margin-top: 2px;
+    }
+
+    /* Responsive Layout */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 26px;
+      }
+
+      .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+      }
+
+      .card {
+        width: 80%;
+        max-width: 350px;
+      }
+
+      .card img {
+        height: 200px;
+      }
+
+      .card h2 {
+        font-size: 17px;
+      }
+
+      .card .nickname {
+        font-size: 14px;
+      }
+    }
+
+    /* Very small mobile phone (below 480px) */
+    @media (max-width: 480px) {
+      header {
+        padding: 40px 10px 10px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+
+      .card {
+        width: 90%;
+        max-width: 320px;
+      }
+
+      .card img {
+        height: 180px;
+      }
+
+      .card-body {
+        padding: 10px 5px 20px;
+      }
     }
   </style>
 </head>
