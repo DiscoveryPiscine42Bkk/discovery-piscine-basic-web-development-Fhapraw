@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Basics</title>
+    <style>
+      body {
+        background-color: pink;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+      }
+
+      h1 {
+        color: white;
+        font-size: 50px;
+        margin-top: 40px;
+      }
+
+      .shop-container {
+        display: flex;            
+        justify-content: center;     
+        align-items: center;
+        gap: 60px;              
+        margin-top: 50px;
+      }
+
+      .shop-container img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;        
+        border-radius: 10px;
+      }
+
+      .shop-container a {
+        display: block;
+        margin-top: 10px;
+        font-size: 18px;
+        color: blue;
+        text-decoration: none;
+      }
+
+      .shop-container a:hover {
+        text-decoration: underline;
+      }
+
+      hr {
+        margin: 50px auto;
+        width: 80%;
+        border: 1px solid white;
+      }
+
+      footer {
+        text-align: right;
+        font-style: italic;
+        font-family: monospace; 
+        color: white;
+        margin-right: 40px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to My Shop 💖</h1>
+
+    <div class="shop-container">
+      <div>
+        <img src="https://i.pinimg.com/1200x/ac/f0/da/acf0da576f5d4650a02b693c270620b0.jpg" alt="Lazada">
+        <a href="https://www.lazada.co.th" target="_blank">Visit Lazada</a>
+      </div>
+
+      <div>
+        <img src="https://i.pinimg.com/736x/2e/51/e6/2e51e61b5b669939bbcb1240dd0a8e56.jpg" alt="Shopee">
+        <a href="https://shopee.co.th" target="_blank">Visit Shopee</a>
+      </div>
+    </div>
+
+    <hr>
+
+    <footer>© Fhapraw 2025</footer>
+  </body>
+</html>

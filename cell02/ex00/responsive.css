@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  height: 100vh;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  table-layout: fixed;
+}
+
+td {
+  border: 2px solid #999;
+  font-size: 2vw;
+  font-weight: bold;
+  color: #222;
+}
+
+.first {
+  background-color: #a3d5ff;
+}
+
+.second {
+  background-color: #f6b0f0;
+}
+
+/* Responsive เมื่อจอเล็ก */
+@media (max-width: 800px) {
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  td {
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+  }
+}

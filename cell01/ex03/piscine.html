@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Piscine Web</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 50px;
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 30px;
+        flex-wrap: wrap; 
+      }
+
+      img {
+        width: 350px;           
+        height: 250px;           
+        border-radius: 10px;      
+        object-fit: cover;      
+        object-position: center;  
+        cursor: pointer;
+        transition: transform 0.2s;
+      }
+
+      img:hover {
+        transform: scale(1.05); 
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>Piscine Web</p>
+
+    <div class="image-container">
+
+      <a href="https://www.youtube.com/shorts/NmeYtjhHalo?feature=share" target="_blank">
+        <img src="https://i.pinimg.com/736x/a2/f2/f5/a2f2f5386306a4d94df8e6c4ee48f657.jpg" alt="cat picture">
+      </a>
+
+      <img src="https://i.pinimg.com/736x/cc/9c/1b/cc9c1b2cc0e1e7dad1f96890e2faede7.jpg" alt="cat meme">
+    </div>
+  </body>
+</html>
